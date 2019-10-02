@@ -1,8 +1,8 @@
 from wikidataintegrator import wdi_core, wdi_login
 
 
-mediawiki_api_url = "http://127.0.0.1:8181/w/api.php"
-sparql_endpoint_url = "http://127.0.0.1:8282/proxy/wdqs/bigdata/namespace/wdq/sparql"
+mediawiki_api_url = "http://185.54.113.31:8181/w/api.php"
+sparql_endpoint_url = "http://185.54.113.31:8282/proxy/wdqs/bigdata/namespace/wdq/sparql"
 username = "Test"
 password = "test2"
 login = wdi_login.WDLogin(username, password, mediawiki_api_url=mediawiki_api_url)
